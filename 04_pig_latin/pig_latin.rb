@@ -10,7 +10,6 @@ def translate(sentence)
 end
 
 def translate_word(word)
-  vowel = /[aeiou]/
   ans = String.new
 
   if (is_vowel?(word[0]))
